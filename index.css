@@ -1,0 +1,45 @@
+/* layouts */
+
+#__bs_notify__ {
+  display: none !important;
+}
+
+:focus {
+  box-shadow: none;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  max-width: 320px;
+  padding: 1rem;
+  background: rgba(248, 249, 250, 0.9);
+  border-radius: 0.25rem;
+  transform: translate(-50%, -50%);
+}
+
+.avatar-image {
+  width: 128px;
+  height: 128px;
+  background-image: url('./profile.jpg');
+  background-size: 155%;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.divider {
+  margin: 1rem 0;
+  border-top-color: var(--oc-gray-4);
+}
+
+p {
+  margin-bottom: 1rem;
+  /* text-align: justify; */
+}
